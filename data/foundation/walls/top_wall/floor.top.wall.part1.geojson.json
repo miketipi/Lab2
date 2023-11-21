@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "generator": "smartcity",
+  "copyright": "Smartcity",
+  "timestamp": "2021-05-27T09:28:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Mặt đáy",
+        "height": 3,
+        "color": "#756e7a",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.834575268, 21.036889705],
+            [105.83483422, 21.036843046] ,
+            [105.834778551, 21.036585846] ,
+            [105.83452363, 21.036632222]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}

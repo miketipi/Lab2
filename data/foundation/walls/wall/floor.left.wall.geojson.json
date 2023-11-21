@@ -1,0 +1,31 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Tường trái",
+          "height": 4,
+          "color": "#756e7a",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [105.83452363, 21.036632222],
+              [105.834512458, 21.036625148],
+              
+              [105.834735741, 21.036586202],
+              [105.834737423, 21.036593336]
+            ]
+          ]
+        },
+        "id": "pp1"
+      }
+    ]
+  }
+  
