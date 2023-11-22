@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "generator": "smartcity",
+  "copyright": "Smartcity",
+  "timestamp": "2021-05-27T09:28:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Bậc 6 cầu thang bên trái",
+        "height": 2.2,
+        "width": 15,
+        "color": "#838b94",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.834736024, 21.036402158, 2],
+            [105.83476642770303, 21.036534037720802, 2],
+            [105.83479068390236, 21.03652904493259, 2],
+            [105.8347595468321, 21.036397314358513, 2]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}

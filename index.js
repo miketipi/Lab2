@@ -1,6 +1,6 @@
 import { foundation } from "./data/foundation/foundation.js";
-import {middle} from "./data/middle/middle.js"
-
+import { middle } from "./data/middle/middle.js";
+import { CauThangTraiRender } from "./data/CauthangTrai/CauThangTraiRender.js";
 require([
   "esri/Map",
   "esri/views/SceneView",
@@ -37,21 +37,26 @@ require([
     Graphic,
     esriRequest
   );
-
+  const cauthangtrai = CauThangTraiRender(
+    Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+  );
 
   const map = new Map({
     basemap: "topo-vector",
-    layers: [
-      ...foundationArr,
-      ...middleArr
-    ], //end layers
+    layers: [...foundationArr, ...middleArr, ...cauthangtrai], //end layers
   });
 
   const view = new SceneView({
     container: "viewDiv",
     map: map,
     camera: {
-      position: [ 105.83454927674805,21.036947054908556, 500],
+      position: [105.83454927674805, 21.036947054908556, 500],
       heading: 0,
       tilt: 0,
     },

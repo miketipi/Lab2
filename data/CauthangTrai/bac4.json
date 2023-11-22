@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "generator": "smartcity",
+  "copyright": "Smartcity",
+  "timestamp": "2021-05-27T09:28:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Bậc 4 cầu thang bên trái",
+        "height": 1.4,
+        "width": 15,
+        "color": "#838b94",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.834736024, 21.036402158, 1.2],
+            [105.83476642770303, 21.036534037720802, 1.2],
+            [105.8348038566872, 21.036526332491935, 1.2],
+            [105.83477271961748, 21.036394601917863, 1.2]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}
