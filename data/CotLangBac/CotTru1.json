@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Cột 1 bên trái",
+                "height": 8.0,
+                "width": 1.0,
+                "color": "#838b94",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                   [
+                    [105.83476010243409,21.03678885324445,5],
+                    [105.83476965777706,21.036787696249384,5],
+                    [105.834770983, 21.036796604, 5],
+                    [105.8347614983197, 21.036798188518436,5]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}

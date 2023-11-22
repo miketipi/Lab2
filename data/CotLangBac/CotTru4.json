@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Cột 4 bên trái",
+                "height": 8.0,
+                "width": 1.0,
+                "color": "#838b94",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                   [
+                    [105.83470346813395,21.036799691382107,5],
+                    [105.8347130234753,21.036798534377667,5],
+                    [105.83471434869276,21.036807442118914,5],
+                    [105.8347048640098,21.03680902662798,5]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}

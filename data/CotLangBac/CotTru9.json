@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Cột 9 ở giữa",
+                "height": 8.0,
+                "width": 1.0,
+                "color": "#838b94",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                   [
+                    [105.83474664657568,21.036736375854616,5],
+                    [105.83475620192111,21.036735218859025,5],
+                    [105.83475752714557,21.03674412660912,5],
+                    [105.83474804246751,21.036745711127036,5]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}

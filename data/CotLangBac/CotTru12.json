@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Cột 12 ở bên phải",
+                "height": 8.0,
+                "width": 1.0,
+                "color": "#838b94",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                   [
+                    [105.83471879792062,21.0367050036421,5],
+                    [105.83472835327021,21.03670384664453,5],
+                    [105.83472967849701,21.036712754392635,5],
+                    [105.83472019382262,21.036714338908567,5]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}

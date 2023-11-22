@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Cột 11 ở bên phải",
+                "height": 8.0,
+                "width": 1.0,
+                "color": "#838b94",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                   [
+                    [105.8346432855593,21.036719454479805,5],
+                    [105.8346528409039,21.036718297457234,5],
+                    [105.83465416612073,21.036727205180345,5],
+                    [105.83464468144001,21.036728789671262,5]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}
