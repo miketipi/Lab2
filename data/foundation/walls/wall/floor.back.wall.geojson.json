@@ -1,0 +1,31 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Tường sau",
+          "height": 4,
+          "color": "#756e7a",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [105.83452363, 21.036632222],
+              [105.834575268, 21.036889705],
+              
+              [105.834569505, 21.03689883]      ,
+              [105.834512458, 21.036625148]  
+            ]
+          ]
+        },
+        "id": "pp1"
+      }
+    ]
+  }
+  

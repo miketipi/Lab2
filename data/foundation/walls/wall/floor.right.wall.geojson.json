@@ -1,0 +1,32 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Tường phải",
+          "height": 4,
+          "color": "#756e7a",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [105.834569505, 21.03689883],
+              [105.834575268, 21.036889705],             
+              [105.834787587, 21.036851527],
+              [105.834789518, 21.036859475]
+              
+
+            ]
+          ]
+        },
+        "id": "pp1"
+      }
+    ]
+  }
+  

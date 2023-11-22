@@ -4,6 +4,7 @@ export const top_wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
         url: "./data/foundation/walls/top_wall/floor.top.wall.part1.geojson.json"
     });
 
+<<<<<<< HEAD
     const topWallPart2 = new GeoJSONLayer({
         url: "./data/foundation/walls/top_wall/floor.top.wall.part2.geojson.json"
     });
@@ -34,6 +35,8 @@ export const top_wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
 
 
 
+=======
+>>>>>>> 7a47e376d28b261d236a58d263b6107fbe3d5864
     topWallPart1.renderer = {
         type: "simple", 
         symbol: {
@@ -41,6 +44,7 @@ export const top_wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
             symbolLayers: [
                 {
                     type: "extrude",
+<<<<<<< HEAD
                     size: 0.3,
                     material: {
                         color: "#4f332a"
@@ -157,6 +161,11 @@ export const top_wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     size: 0.3,
                     material: {
                         color: "#4f332a"
+=======
+                    size: 3,
+                    material: {
+                        color: "#756e7a"
+>>>>>>> 7a47e376d28b261d236a58d263b6107fbe3d5864
                     },
                 }
             ]
@@ -164,6 +173,7 @@ export const top_wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
     };
 
     return [
+<<<<<<< HEAD
         topWallPart1,
         topWallPart2,
         topWallPart3,
@@ -172,5 +182,8 @@ export const top_wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
         topWallPart6,
         topWallPart7,
         topWallPart8
+=======
+        topWallPart1
+>>>>>>> 7a47e376d28b261d236a58d263b6107fbe3d5864
     ]
 }
