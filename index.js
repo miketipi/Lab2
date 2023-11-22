@@ -1,4 +1,5 @@
 import { foundation } from "./data/foundation/foundation.js";
+import {middle} from "./data/middle/middle.js"
 
 require([
   "esri/Map",
@@ -27,11 +28,22 @@ require([
     esriRequest
   );
 
+  const middleArr = middle(
+    Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+  );
+
 
   const map = new Map({
     basemap: "topo-vector",
     layers: [
-      ...foundationArr
+      ...foundationArr,
+      ...middleArr
     ], //end layers
   });
 

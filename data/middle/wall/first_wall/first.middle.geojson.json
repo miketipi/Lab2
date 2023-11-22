@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "generator": "smartcity",
+  "copyright": "Smartcity",
+  "timestamp": "2021-05-27T09:28:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Tầng giữa 1",
+        "height": 2,
+        "color": "#e28743",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.8345981567472,21.036858120118733,3],
+            [105.83480037965903,21.036821682791427,3],
+            [105.83475566228978,21.036617430878206,3],
+            [105.83455747030283,21.036653585201886,3]
+          ]
+        ]
+      },
+      "id": "pp100"
+    }
+  ]
+}
