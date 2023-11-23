@@ -1,0 +1,27 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Cột 10 ở giữa",
+                "height": 8.0,
+                "width": 1.0,
+                "color": "#838b94",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                   [
+                    [105.83471784205108,21.03670916725761,5],[105.8347160156527,21.03670033708012,5],[105.8347254763894,21.0366986324063,5],[105.83472730279499,21.036707462582513,5]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}

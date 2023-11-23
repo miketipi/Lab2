@@ -1,0 +1,27 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Cột 5 bên trái",
+                "height": 8.0,
+                "width": 1.0,
+                "color": "#838b94",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                   [
+                    [105.83465676739667,21.036793446043877,5],[105.83465494099495,21.036784615850273,5],[105.83466440172532,21.036782911160333,5],[105.83466622812033,21.036791741320418,5]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}

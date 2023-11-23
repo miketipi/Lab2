@@ -1,0 +1,27 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Cột 13 ở bên phải",
+                "height": 8.0,
+                "width": 1.0,
+                "color": "#838b94",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                   [
+                    [105.83467634633823,21.036698325593083,5],[105.83467451994333,21.036689495411057,5],[105.83468398068155,21.03668779073271,5],[105.8346858070857,21.03669662090439,5]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}

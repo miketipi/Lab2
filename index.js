@@ -1,6 +1,8 @@
 import { foundation } from "./data/foundation/foundation.js";
 import { middle } from "./data/middle/middle.js";
 import { CauThangTraiRender } from "./data/CauthangTrai/CauThangTraiRender.js";
+import { CotTruLangRender } from "./data/CotLangBac/CotTruLangRender.js";
+
 require([
   "esri/Map",
   "esri/views/SceneView",
@@ -47,9 +49,23 @@ require([
     esriRequest
   );
 
+  const cotTruLangBac = CotTruLangRender(
+    Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+  );
+
   const map = new Map({
     basemap: "topo-vector",
-    layers: [...foundationArr, ...middleArr, ...cauthangtrai], //end layers
+    layers: [...foundationArr, 
+      ...middleArr, 
+      ...cauthangtrai, 
+      ...cotTruLangBac,
+    ], //end layers
   });
 
   const view = new SceneView({
