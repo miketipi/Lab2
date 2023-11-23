@@ -2,6 +2,7 @@ import { foundation } from "./data/foundation/foundation.js";
 import { middle } from "./data/middle/middle.js";
 import { CauThangTraiRender } from "./data/CauthangTrai/CauThangTraiRender.js";
 import { CotTruLangRender } from "./data/CotLangBac/CotTruLangRender.js";
+import { CauThangPhaiRender } from "./data/CauthangPhai/CauThangPhaiRender.js";
 
 require([
   "esri/Map",
@@ -48,6 +49,15 @@ require([
     Graphic,
     esriRequest
   );
+  const cauthangphai = CauThangPhaiRender(
+    Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+  );
 
   const cotTruLangBac = CotTruLangRender(
     Map,
@@ -65,6 +75,7 @@ require([
       ...middleArr, 
       ...cauthangtrai, 
       ...cotTruLangBac,
+      ...cauthangphai
     ], //end layers
   });
 
