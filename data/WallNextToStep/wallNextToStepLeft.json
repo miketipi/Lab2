@@ -1,0 +1,46 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Tuong ke bac thang",
+                "height": 0.2,
+                "width": 1.8,
+                "color": "#1e81b0",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            105.834846595021905,
+                            21.036623008496125,
+                            0.4
+                        ],
+                        [
+                            105.83484837540134,
+                            21.036632413387174,
+                            0.4
+                        ],
+                        [
+                            105.834843594091721,
+                            21.036632965041676,
+                            0.4
+                        ],
+                        [
+                            105.83484181371256,
+                            21.036623560150268,
+                            0.4
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}

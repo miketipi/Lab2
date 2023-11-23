@@ -1,0 +1,46 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Bậc 3 cầu thang phía sau tòa giữa, dọc 0.2, cao 0.24",
+                "height": 0.2,
+                "width": 1.8,
+                "color": "#838b94",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            105.834876167,
+                            21.036619366,
+                            0.1
+                        ],
+                        [
+                            105.834910832660482,
+                            21.036788700096064,
+                            0.1
+                        ],
+                        [
+                            105.8348757893636565,
+                            21.03679324024681,
+                            0.1
+                        ],
+                        [
+                            105.83484181371256,
+                            21.036623560150613,
+                            0.1
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}
