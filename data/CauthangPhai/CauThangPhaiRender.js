@@ -325,5 +325,13 @@ export const CauThangPhaiRender = (
     bacthangthang1,
     bacthangthang2,
     bacthangthang3,
+    bacthangthang4,
+    bacthangthang5,
+    bacthangthang6,
+    bacthangthang7,
+    bacthangthang8,
+    bacthangthang9,
+    bacthangngang1,
+    bacthangngang2
   ];
 };
