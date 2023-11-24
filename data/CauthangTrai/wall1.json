@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "generator": "smartcity",
+  "copyright": "Smartcity",
+  "timestamp": "2021-05-27T09:28:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "wall 1",
+        "height": 2.6,
+        "width": 15,
+        "color": "#838b94",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.834737423, 21.036593336],
+            [105.83474215336051, 21.036592483663217, 0],
+            [105.83473941375955, 21.036579238397888, 0],
+            [105.83473468339945, 21.036580090734674, 0]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "generator": "smartcity",
+  "copyright": "Smartcity",
+  "timestamp": "2021-05-27T09:28:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "wall 3",
+        "height": 2.6,
+        "width": 15,
+        "color": "#838b94",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.8347319437991, 21.03656684546935, 0],
+            [105.83476978667501, 21.036560026771422, 0],
+            [105.83476887347497, 21.036555611682985, 0],
+            [105.83473103059906, 21.036562430380904, 0]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}

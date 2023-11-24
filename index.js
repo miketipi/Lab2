@@ -5,6 +5,10 @@ import { leftBuilding } from "./data/leftBuilding/leftBuilding.js";
 import { CauThangRender } from "./data/CauthangGiuaLang/CauThangRender.js";
 import { CotTruLangRender } from "./data/CotLangBac/CotTruLangRender.js";
 import { middle } from "./data/middle/middle.js";
+import { CauThangTraiRender } from "./data/CauthangTrai/CauThangTraiRender.js";
+import { CotTruLangRender } from "./data/CotLangBac/CotTruLangRender.js";
+import { CauThangPhaiRender } from "./data/CauthangPhai/CauThangPhaiRender.js";
+
 require([
   "esri/Map",
   "esri/views/SceneView",
@@ -37,6 +41,24 @@ require([
   );
 
   const middleArr = middle(
+    Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+  );
+  const cauthangtrai = CauThangTraiRender(
+    Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+  );
+  const cauthangphai = CauThangPhaiRender(
     Map,
     SceneView,
     GeoJSONLayer,
@@ -88,11 +110,12 @@ require([
 
   const map = new Map({
     basemap: "topo-vector",
-    layers: [
+    layers: [...foundationArr, 
       ...cauthanggiualang,
+      ...middleArr, 
+      ...cauthangtrai, 
       ...cotTruLangBac,
-      ...foundationArr,
-      ...middleArr
+      ...cauthangphai
     ], //end layers
   });
 
@@ -100,7 +123,7 @@ require([
     container: "viewDiv",
     map: map,
     camera: {
-      position: [ 105.83454927674805,21.036947054908556, 500],
+      position: [105.83454927674805, 21.036947054908556, 500],
       heading: 0,
       tilt: 0,
     },

@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "generator": "smartcity",
+  "copyright": "Smartcity",
+  "timestamp": "2021-05-27T09:28:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "bac thang thang 1",
+        "height": 2.6,
+        "width": 15,
+        "color": "#838b94",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.83479231736867, 21.03685067466322,0,2],
+            [105.83482069958006,21.03684556064056,0.2],
+            [105.83482252598381,21.03685439081742,0.2],
+            [105.83479414377253,21.036859504840077,0.2]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}

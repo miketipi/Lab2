@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "generator": "smartcity",
+  "copyright": "Smartcity",
+  "timestamp": "2021-05-27T09:28:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "bac thang thang 8",
+        "height": 2.6,
+        "width": 15,
+        "color": "#838b94",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.83474047136033, 21.036585349663213, 1.4],
+            [105.8347664883412, 21.036580661809293, 1.4],
+            [105.83476249004147, 21.03656062510033, 1.4],
+            [105.8347364730642, 21.03656531295425, 1.4]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}

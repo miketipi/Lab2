@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "generator": "smartcity",
+  "copyright": "Smartcity",
+  "timestamp": "2021-05-27T09:28:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "wall 6",
+        "height": 2.6,
+        "width": 15,
+        "color": "#838b94",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.83482563778509, 21.03654538363296, 0],
+            [105.83483036814407, 21.03654453129618, 0],
+            [105.83484315294909, 21.03660634253379, 0],
+            [105.83483842259011, 21.036607194870577, 0]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}
