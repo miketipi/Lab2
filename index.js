@@ -7,6 +7,7 @@ import { middle } from "./data/middle/middle.js";
 import { CauThangTraiRender } from "./data/CauthangTrai/CauThangTraiRender.js";
 import { CotTruLangRender } from "./data/CotLangBac/CotTruLangRender.js";
 import { CauThangPhaiRender } from "./data/CauthangPhai/CauThangPhaiRender.js";
+import { MaiLangBacRender } from "./data/MaiLangBac/roof.js";
 
 require([
   "esri/Map",
@@ -107,6 +108,16 @@ require([
     esriRequest
   );
 
+  const MaiLangBac = MaiLangBacRender( 
+    Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+  );
+
   const map = new Map({
     basemap: "topo-vector",
     layers: [...foundationArr, 
@@ -114,7 +125,8 @@ require([
       ...middleArr, 
       ...cauthangtrai, 
       ...cotTruLangBac,
-      ...cauthangphai
+      ...cauthangphai,
+      ...MaiLangBac,
     ], //end layers
   });
 
