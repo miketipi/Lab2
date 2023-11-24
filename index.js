@@ -3,7 +3,6 @@ import { centerBuilding } from "./data/centerBuilding/index.js";
 import { rightBuilding } from "./data/rightBuilding/rightBuilding.js";
 import { leftBuilding } from "./data/leftBuilding/leftBuilding.js";
 import { CauThangRender } from "./data/CauthangGiuaLang/CauThangRender.js";
-import { CotTruLangRender } from "./data/CotLangBac/CotTruLangRender.js";
 import { middle } from "./data/middle/middle.js";
 import { CauThangTraiRender } from "./data/CauthangTrai/CauThangTraiRender.js";
 import { CotTruLangRender } from "./data/CotLangBac/CotTruLangRender.js";
