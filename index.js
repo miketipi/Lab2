@@ -1,14 +1,10 @@
 import { foundation } from "./data/foundation/foundation.js";
-<<<<<<< HEAD
 import { centerBuilding } from "./data/centerBuilding/index.js";
 import { rightBuilding } from "./data/rightBuilding/rightBuilding.js";
 import { leftBuilding } from "./data/leftBuilding/leftBuilding.js";
 import { CauThangRender } from "./data/CauthangGiuaLang/CauThangRender.js";
 import { CotTruLangRender } from "./data/CotLangBac/CotTruLangRender.js";
-=======
-import {middle} from "./data/middle/middle.js"
->>>>>>> 7a47e376d28b261d236a58d263b6107fbe3d5864
-
+import { middle } from "./data/middle/middle.js";
 require([
   "esri/Map",
   "esri/views/SceneView",
@@ -17,6 +13,8 @@ require([
   "esri/layers/GraphicsLayer",
   "esri/Graphic",
   "esri/request",
+  "esri/geometry/Mesh",
+  "esri/geometry/Point"
 ], function (
   Map,
   SceneView,
@@ -24,7 +22,9 @@ require([
   SceneLayer,
   GraphicsLayer,
   Graphic,
-  esriRequest
+  esriRequest,
+  Mesh,
+  Point
 ) {
   const foundationArr = foundation(
     Map,
@@ -36,11 +36,7 @@ require([
     esriRequest
   );
 
-<<<<<<< HEAD
-  const centerBuildingArr = centerBuilding(
-=======
   const middleArr = middle(
->>>>>>> 7a47e376d28b261d236a58d263b6107fbe3d5864
     Map,
     SceneView,
     GeoJSONLayer,
@@ -50,7 +46,6 @@ require([
     esriRequest
   );
 
-<<<<<<< HEAD
   const leftBuildingArr = leftBuilding(
     Map,
     SceneView,
@@ -90,19 +85,14 @@ require([
     Graphic,
     esriRequest
   );
-=======
->>>>>>> 7a47e376d28b261d236a58d263b6107fbe3d5864
 
   const map = new Map({
     basemap: "topo-vector",
     layers: [
-<<<<<<< HEAD
       ...cauthanggiualang,
       ...cotTruLangBac,
-=======
       ...foundationArr,
       ...middleArr
->>>>>>> 7a47e376d28b261d236a58d263b6107fbe3d5864
     ], //end layers
   });
 
@@ -110,15 +100,72 @@ require([
     container: "viewDiv",
     map: map,
     camera: {
-<<<<<<< HEAD
-      position: [105.834850054, 21.036619341, 500],
-=======
       position: [ 105.83454927674805,21.036947054908556, 500],
->>>>>>> 7a47e376d28b261d236a58d263b6107fbe3d5864
       heading: 0,
       tilt: 0,
     },
   });
+  const cotco1 = new Point({
+    x: 105.835036769,
+    y: 21.036665335,
+    z: 0
+});
 
+Mesh.createFromGLTF(cotco1, "./model/FlagVN.glb")
+    .then(function (geometry) {
+        // increase it a factor of 3
+        geometry.scale(0.5, { origin: cotco1 });
+        // rotate it by 90 degrees around the z axis
+
+        geometry.rotate(0, 0, 115);
+        // add it to a graphic
+        const graphic = new Graphic({
+            geometry,
+            symbol: {
+                type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                symbolLayers: [{
+                    type: "fill", // autocasts as new FillSymbol3DLayer()
+                    material: {
+
+                    },
+                    size: 1000
+                }]
+            }
+        });
+
+        view.graphics.add(graphic);
+    })
+    .catch(console.error);
+    const cotco2 = new Point({
+      x: 105.839036769,
+      y: 21.036665335,
+      z: 0
+  });
+  
+  Mesh.createFromGLTF(cotco2, "./model/ap.glb")
+      .then(function (geometry) {
+          // increase it a factor of 3
+          geometry.scale(0.5, { origin: cotco1 });
+          // rotate it by 90 degrees around the z axis
+  
+          geometry.rotate(0, 0, 115);
+          // add it to a graphic
+          const graphic = new Graphic({
+              geometry,
+              symbol: {
+                  type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                  symbolLayers: [{
+                      type: "fill", // autocasts as new FillSymbol3DLayer()
+                      material: {
+  
+                      },
+                      size: 1000
+                  }]
+              }
+          });
+  
+          view.graphics.add(graphic);
+      })
+      .catch(console.error);
   view.popup.defaultPopupTemplateEnabled = true;
 });
