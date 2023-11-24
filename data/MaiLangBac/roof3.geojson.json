@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "generator": "smartcity",
+  "copyright": "Smartcity",
+  "timestamp": "2021-05-27T09:28:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Mái 3 lăng chủ tịch",
+        "height": 0.5,
+        "color": "#a9a9a9",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [105.8346508436255995,21.036785410040157,19.0],
+            [105.834722482386422,21.036772502010486,19.0],
+            [105.834705675623041,21.036691258778028,19.0],
+            [105.8346340384474065,21.03670416351451,19.0]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}
