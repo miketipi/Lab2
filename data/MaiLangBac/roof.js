@@ -1,4 +1,4 @@
-export const roof_RB = (
+export const MaiLangBacRender = (
   Map,
   SceneView,
   GeoJSONLayer,
@@ -8,35 +8,19 @@ export const roof_RB = (
   esriRequest
 ) => {
   const roofGeojsonLayer = new GeoJSONLayer({
-    url: "./data/rightBuilding/firstFloor/roof/roof1.geojson.json",
+    url: "./data/MaiLangBac/roof1.geojson.json",
   });
-
-  roofGeojsonLayer.renderer = {
-    type: "simple",
-    symbol: {
-      type: "polygon-3d",
-      symbolLayers: [
-        {
-          type: "extrude",
-          size: 0.05,
-          material: {
-            color: "#ab864a",
-          },
-        },
-      ],
-    },
-  };
   const roofGeojsonLayer2 = new GeoJSONLayer({
-    url: "./data/rightBuilding/firstFloor/roof/roof2.geojson.json",
+    url: "./data/MaiLangBac/roof2.geojson.json",
   });
   const roofGeojsonLayer3 = new GeoJSONLayer({
-    url: "./data/rightBuilding/firstFloor/roof/roof3.geojson.json",
+    url: "./data/MaiLangBac/roof3.geojson.json",
   });
   const roofGeojsonLayerBigFloor = new GeoJSONLayer({
-    url: "./data/rightBuilding/firstFloor/roof/roof1.bigfloor.geojson.json",
+    url: "./data/MaiLangBac/roof1.bigfloor.geojson.json",
   });
   const roofGeojsonLayerSmallFloor = new GeoJSONLayer({
-    url: "./data/rightBuilding/firstFloor/roof/roof1.smallfloor.geojson.json",
+    url: "./data/MaiLangBac/roof1.smallfloor.geojson.json",
   });
   
   roofGeojsonLayer.renderer = {
