@@ -8,6 +8,8 @@ import { CauThangTraiRender } from "./data/CauthangTrai/CauThangTraiRender.js";
 import { CotTruLangRender } from "./data/CotLangBac/CotTruLangRender.js";
 import { CauThangPhaiRender } from "./data/CauthangPhai/CauThangPhaiRender.js";
 import { MaiLangBacRender } from "./data/MaiLangBac/roof.js";
+import { CauThangRender } from "./data/CauthangGiuaLang/CauThangRender.js";
+import { wallNextToStepRender } from "./data/WallNextToStep/wallNextToStepRender.js"
 
 require([
   "esri/Map",
@@ -108,7 +110,26 @@ require([
     esriRequest
   );
 
+  const cauthanggiua = CauThangRender(
+    Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+  );
   const MaiLangBac = MaiLangBacRender( 
+  Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+  );
+
+  const wallNextToStep = wallNextToStepRender(
     Map,
     SceneView,
     GeoJSONLayer,
@@ -118,15 +139,17 @@ require([
     esriRequest
   );
 
+
   const map = new Map({
     basemap: "topo-vector",
-    layers: [...foundationArr, 
-      ...cauthanggiualang,
-      ...middleArr, 
-      ...cauthangtrai, 
-      ...cotTruLangBac,
-      ...cauthangphai,
-      ...MaiLangBac,
+    layers: [...foundationArr,
+    ...middleArr,
+    ...cauthangtrai,
+    ...cotTruLangBac,
+    ...cauthanggiua,
+    ...cauthangphai,
+    ...wallNextToStep,
+    ...MaiLangBac
     ], //end layers
   });
 

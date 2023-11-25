@@ -1,0 +1,46 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Tuong ke them ben phai",
+                "height": 0.2,
+                "width": 1.8,
+                "color": "#838b94",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            105.834879044841214,
+                            21.036784060066925,
+                            0.4
+                        ],
+                        [
+                            105.83488051973036,
+                            21.036792387909546,
+                            0.4
+                        ],
+                        [
+                            105.8348757893636565,
+                            21.03679324024681,
+                            0.4
+                        ],
+                        [
+                            105.8348743144748,
+                            21.03678491240414,
+                            0.4
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}
