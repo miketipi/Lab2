@@ -8,7 +8,6 @@ import { CauThangTraiRender } from "./data/CauthangTrai/CauThangTraiRender.js";
 import { CotTruLangRender } from "./data/CotLangBac/CotTruLangRender.js";
 import { CauThangPhaiRender } from "./data/CauthangPhai/CauThangPhaiRender.js";
 import { MaiLangBacRender } from "./data/MaiLangBac/roof.js";
-import { CauThangRender } from "./data/CauthangGiuaLang/CauThangRender.js";
 import { wallNextToStepRender } from "./data/WallNextToStep/wallNextToStepRender.js"
 
 require([
