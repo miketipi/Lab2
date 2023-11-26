@@ -192,19 +192,19 @@ Mesh.createFromGLTF(cotco1, "./model/FlagVN.glb")
         view.graphics.add(graphic);
     })
     .catch(console.error);
-    const cotco2 = new Point({
-      x: 105.839036769,
-      y: 21.036665335,
+    const hangcay = new Point({
+      x: 105.834868985,
+      y: 21.036535326,
       z: 0
   });
   
-  Mesh.createFromGLTF(cotco2, "./model/ap.glb")
+  Mesh.createFromGLTF(hangcay, "./model/tree.glb")
       .then(function (geometry) {
           // increase it a factor of 3
           geometry.scale(0.5, { origin: cotco1 });
           // rotate it by 90 degrees around the z axis
   
-          geometry.rotate(0, 0, 115);
+          geometry.rotate(0, 0, 80);
           // add it to a graphic
           const graphic = new Graphic({
               geometry,
