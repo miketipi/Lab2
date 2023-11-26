@@ -198,7 +198,7 @@ Mesh.createFromGLTF(cotco1, "./model/FlagVN.glb")
       z: 0
   });
   
-  Mesh.createFromGLTF(hangcay, "./model/tree.glb")
+  Mesh.createFromGLTF(hangcay, "./model/tree7.glb")
       .then(function (geometry) {
           // increase it a factor of 3
           geometry.scale(0.5, { origin: cotco1 });
