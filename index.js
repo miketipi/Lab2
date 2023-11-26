@@ -9,7 +9,7 @@ import { CotTruLangRender } from "./data/CotLangBac/CotTruLangRender.js";
 import { CauThangPhaiRender } from "./data/CauthangPhai/CauThangPhaiRender.js";
 import { MaiLangBacRender } from "./data/MaiLangBac/roof.js";
 import { wallNextToStepRender } from "./data/WallNextToStep/wallNextToStepRender.js"
-
+import { BacThemGiuaRender } from "./data/bacthemgiua/BacThemGiuaRender.js";
 require([
   "esri/Map",
   "esri/views/SceneView",
@@ -41,6 +41,15 @@ require([
     esriRequest
   );
 
+  const bacthemgiua = BacThemGiuaRender(
+    Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+  );
   const middleArr = middle(
     Map,
     SceneView,
@@ -148,7 +157,8 @@ require([
     ...cauthanggiua,
     ...cauthangphai,
     ...wallNextToStep,
-    ...MaiLangBac
+    ...MaiLangBac,
+    ...bacthemgiua
     ], //end layers
   });
 
@@ -198,10 +208,10 @@ Mesh.createFromGLTF(cotco1, "./model/FlagVN.glb")
       z: 0
   });
   
-  Mesh.createFromGLTF(hangcay, "./model/tree7.glb")
+  Mesh.createFromGLTF(hangcay, "./model/small_tree.glb")
       .then(function (geometry) {
           // increase it a factor of 3
-          geometry.scale(0.5, { origin: cotco1 });
+          geometry.scale(0.2, { origin: hangcay });
           // rotate it by 90 degrees around the z axis
   
           geometry.rotate(0, 0, 80);
