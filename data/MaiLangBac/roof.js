@@ -22,6 +22,9 @@ export const MaiLangBacRender = (
   const roofGeojsonLayerSmallFloor = new GeoJSONLayer({
     url: "./data/MaiLangBac/roof1.smallfloor.geojson.json",
   });
+  const roofGeojsonLayer4 = new GeoJSONLayer({
+    url: "./data/MaiLangBac/roof4.geojson.json",
+  });
   
   roofGeojsonLayer.renderer = {
     type: "simple",
@@ -60,7 +63,7 @@ export const MaiLangBacRender = (
       symbolLayers: [
         {
           type: "extrude",
-          size: 2,
+          size: 1.5,
           material: {
             color: "#a9a9a9",
           },
@@ -101,11 +104,28 @@ export const MaiLangBacRender = (
     },
   };
 
+  roofGeojsonLayer4.renderer = {
+    type: "simple",
+    symbol: {
+      type: "polygon-3d",
+      symbolLayers: [
+        {
+          type: "extrude",
+          size: 0.5,
+          material: {
+            color: "#a9a9a9",
+          },
+        },
+      ],
+    },
+  };
+
   return [
     roofGeojsonLayer,
     roofGeojsonLayer2,
     roofGeojsonLayer3,
     roofGeojsonLayerBigFloor,
     roofGeojsonLayerSmallFloor,
+    roofGeojsonLayer4,
   ];
 };
