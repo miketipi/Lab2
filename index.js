@@ -179,7 +179,7 @@ require([
     ...wallNextToStep,
     ...MaiLangBac,
     ...bacthemgiua,
-    ...phanLang
+    ...phanLang,
     ...outsidestep
     ], //end layers
   });
