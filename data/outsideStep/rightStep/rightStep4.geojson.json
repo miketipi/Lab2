@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Bậc thang ngoài, phải 4",
+          "height": 0.5,
+          "color": "#e28743",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [105.83487588835116,21.03692560670734,2],
+              [105.83496720874862,21.03736711552649,2],
+              [105.83490665981172,21.037378025411435,2],
+              [105.83481533959369,21.036936516592277,2]
+              
+            ]
+          ]
+        },
+        "id": "pp100"
+      }
+    ]
+  }

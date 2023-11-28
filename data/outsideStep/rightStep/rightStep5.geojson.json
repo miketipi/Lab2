@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Bậc thang ngoài, trái 5",
+          "height": 0.5,
+          "color": "#e28743",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [105.83486453546035,21.036927652315082,2.5],
+              [105.8349558558241,21.037369161134233,2.5],
+              [105.83490665981172,21.037378025411435,2.5],
+              [105.83481533959369,21.036936516592277,2.5]
+              
+            ]
+          ]
+        },
+        "id": "pp100"
+      }
+    ]
+  }

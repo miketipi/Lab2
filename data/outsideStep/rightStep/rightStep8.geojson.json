@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Bậc thang ngoài, trái 8",
+          "height": 1.5,
+          "color": "#e28743",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [105.83483047678692,21.03693378913831,4],
+              [105.83492179704982,21.03737529795746,4],
+              [105.83490665981172,21.037378025411435,4],
+              [105.83481533959369,21.036936516592277,4]
+              
+            ]
+          ]
+        },
+        "id": "pp100"
+      }
+    ]
+  }
