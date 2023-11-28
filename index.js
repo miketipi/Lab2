@@ -10,6 +10,7 @@ import { CauThangPhaiRender } from "./data/CauthangPhai/CauThangPhaiRender.js";
 import { MaiLangBacRender } from "./data/MaiLangBac/roof.js";
 import { wallNextToStepRender } from "./data/WallNextToStep/wallNextToStepRender.js"
 import { BacThemGiuaRender } from "./data/bacthemgiua/BacThemGiuaRender.js";
+import { outsideStep } from "./data/outsideStep/outsideStep.js";
 require([
   "esri/Map",
   "esri/views/SceneView",
@@ -147,6 +148,15 @@ require([
     esriRequest
   );
 
+  const outsidestep = outsideStep(
+    Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+  );
 
   const map = new Map({
     basemap: "topo-vector",
@@ -158,7 +168,8 @@ require([
     ...cauthangphai,
     ...wallNextToStep,
     ...MaiLangBac,
-    ...bacthemgiua
+    ...bacthemgiua,
+    ...outsidestep
     ], //end layers
   });
 
