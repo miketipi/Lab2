@@ -1,0 +1,31 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Phần trong lăng",
+          "height": 16,
+          "width": 1.0,
+          "color": "#a9a9a9",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+                [105.83471911609976,21.036674931963937,6],
+                [105.83474194612003,21.0367853091756,6],
+                [105.83463314765545,21.036804912788366,6],
+                [105.83461031774702,21.03669453561832,6]
+            ]
+          ]
+        },
+        "id": "pp1"
+      }
+    ]
+  }
+  

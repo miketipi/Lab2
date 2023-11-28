@@ -10,6 +10,7 @@ import { CauThangPhaiRender } from "./data/CauthangPhai/CauThangPhaiRender.js";
 import { MaiLangBacRender } from "./data/MaiLangBac/roof.js";
 import { wallNextToStepRender } from "./data/WallNextToStep/wallNextToStepRender.js"
 import { BacThemGiuaRender } from "./data/bacthemgiua/BacThemGiuaRender.js";
+import { PhanLangRender } from "./data/PhanLang/PhanLang.js";
 require([
   "esri/Map",
   "esri/views/SceneView",
@@ -31,6 +32,15 @@ require([
   Mesh,
   Point
 ) {
+    const phanLang = PhanLangRender(
+        Map,
+    SceneView,
+    GeoJSONLayer,
+    SceneLayer,
+    GraphicsLayer,
+    Graphic,
+    esriRequest
+    );
   const foundationArr = foundation(
     Map,
     SceneView,
@@ -158,7 +168,8 @@ require([
     ...cauthangphai,
     ...wallNextToStep,
     ...MaiLangBac,
-    ...bacthemgiua
+    ...bacthemgiua,
+    ...phanLang
     ], //end layers
   });
 
