@@ -13,7 +13,7 @@ export const gate = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 2.5,
                     material: {
-                        color: "##e28743"
+                        color: "#4f1511"
                     },
                 }
             ]

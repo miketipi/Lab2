@@ -1,0 +1,32 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Tường trước phần 2",
+          "height": 4,
+          "color": "#9da1a6",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [105.83479763069738,21.036673997384643,0] ,
+              [105.834778551, 21.036585846] ,
+              [105.834785742, 21.036577568],
+              [105.83480466061947,21.036665749622706,0]
+              
+              
+            ]
+          ]
+        },
+        "id": "pp1"
+      }
+    ]
+  }
+  

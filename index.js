@@ -202,16 +202,16 @@ Mesh.createFromGLTF(cotco1, "./model/FlagVN.glb")
         view.graphics.add(graphic);
     })
     .catch(console.error);
-    const hangcay = new Point({
-      x: 105.834868985,
-      y: 21.036535326,
-      z: 0
+    const cay1 = new Point({
+      x: 105.834828,
+      y: 21.036635,
+      z: 0.4
   });
   
-  Mesh.createFromGLTF(hangcay, "./model/small_tree.glb")
+  Mesh.createFromGLTF(cay1, "./model/small_tree.glb")
       .then(function (geometry) {
           // increase it a factor of 3
-          geometry.scale(0.2, { origin: hangcay });
+          geometry.scale(0.2, { origin: cay1 });
           // rotate it by 90 degrees around the z axis
   
           geometry.rotate(0, 0, 80);
@@ -233,5 +233,291 @@ Mesh.createFromGLTF(cotco1, "./model/FlagVN.glb")
           view.graphics.add(graphic);
       })
       .catch(console.error);
+
+      const cay2 = new Point({
+        x: 105.834856,
+        y: 21.036758,
+        z: 0.4
+    });
+    
+    Mesh.createFromGLTF(cay2, "./model/short_tree.glb")
+        .then(function (geometry) {
+            // increase it a factor of 3
+            geometry.scale(0.2, { origin: cay2 });
+            // rotate it by 90 degrees around the z axis
+    
+            geometry.rotate(0, 0, 80);
+            // add it to a graphic
+            const graphic = new Graphic({
+                geometry,
+                symbol: {
+                    type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                    symbolLayers: [{
+                        type: "fill", // autocasts as new FillSymbol3DLayer()
+                        material: {
+    
+                        },
+                        size: 0.05
+                    }]
+                }
+            });
+    
+            view.graphics.add(graphic);
+        })
+        .catch(console.error);
+        const cay3 = new Point({
+          x: 105.834835,
+          y: 21.036658,
+          z: 0.4
+      });
+      
+      Mesh.createFromGLTF(cay3, "./model/short_tree.glb")
+          .then(function (geometry) {
+              // increase it a factor of 3
+              geometry.scale(0.2, { origin: cay3 });
+              // rotate it by 90 degrees around the z axis
+      
+              geometry.rotate(0, 0, 80);
+              // add it to a graphic
+              const graphic = new Graphic({
+                  geometry,
+                  symbol: {
+                      type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                      symbolLayers: [{
+                          type: "fill", // autocasts as new FillSymbol3DLayer()
+                          material: {
+      
+                          },
+                          size: 0.05
+                      }]
+                  }
+              });
+      
+              view.graphics.add(graphic);
+          })
+          .catch(console.error);
+          const cay5 = new Point({
+            x: 105.834864,
+            y: 21.036561,
+            z: 0
+        });
+        
+        Mesh.createFromGLTF(cay5, "./model/small_tree.glb")
+            .then(function (geometry) {
+                // increase it a factor of 3
+                geometry.scale(0.2, { origin: cay5 });
+                // rotate it by 90 degrees around the z axis
+        
+                geometry.rotate(0, 0, 80);
+                // add it to a graphic
+                const graphic = new Graphic({
+                    geometry,
+                    symbol: {
+                        type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                        symbolLayers: [{
+                            type: "fill", // autocasts as new FillSymbol3DLayer()
+                            material: {
+        
+                            },
+                            size: 0.05
+                        }]
+                    }
+                });
+        
+                view.graphics.add(graphic);
+            })
+            .catch(console.error);
+
+            const cay6 = new Point({
+              x: 105.834856,
+              y: 21.036523,
+              z: 0
+          });
+          
+          Mesh.createFromGLTF(cay6, "./model/small_tree.glb")
+              .then(function (geometry) {
+                  // increase it a factor of 3
+                  geometry.scale(0.2, { origin: cay6 });
+                  // rotate it by 90 degrees around the z axis
+          
+                  geometry.rotate(0, 0, 80);
+                  // add it to a graphic
+                  const graphic = new Graphic({
+                      geometry,
+                      symbol: {
+                          type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                          symbolLayers: [{
+                              type: "fill", // autocasts as new FillSymbol3DLayer()
+                              material: {
+          
+                              },
+                              size: 0.05
+                          }]
+                      }
+                  });
+          
+                  view.graphics.add(graphic);
+              })
+              .catch(console.error);
+
+              const cay7 = new Point({
+                x: 105.834848,
+                y: 21.036482,
+                z: 0
+            });
+            
+            Mesh.createFromGLTF(cay7, "./model/small_tree.glb")
+                .then(function (geometry) {
+                    // increase it a factor of 3
+                    geometry.scale(0.2, { origin: cay7 });
+                    // rotate it by 90 degrees around the z axis
+            
+                    geometry.rotate(0, 0, 80);
+                    // add it to a graphic
+                    const graphic = new Graphic({
+                        geometry,
+                        symbol: {
+                            type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                            symbolLayers: [{
+                                type: "fill", // autocasts as new FillSymbol3DLayer()
+                                material: {
+            
+                                },
+                                size: 0.05
+                            }]
+                        }
+                    });
+            
+                    view.graphics.add(graphic);
+                })
+                .catch(console.error);
+
+                const cay8 = new Point({
+                  x: 105.834922,
+                  y: 21.036834,
+                  z: 0
+              });
+              
+              Mesh.createFromGLTF(cay8, "./model/small_tree.glb")
+                  .then(function (geometry) {
+                      // increase it a factor of 3
+                      geometry.scale(0.2, { origin: cay8 });
+                      // rotate it by 90 degrees around the z axis
+              
+                      geometry.rotate(0, 0, 80);
+                      // add it to a graphic
+                      const graphic = new Graphic({
+                          geometry,
+                          symbol: {
+                              type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                              symbolLayers: [{
+                                  type: "fill", // autocasts as new FillSymbol3DLayer()
+                                  material: {
+              
+                                  },
+                                  size: 0.05
+                              }]
+                          }
+                      });
+              
+                      view.graphics.add(graphic);
+                  })
+                  .catch(console.error);
+
+                  const cay9 = new Point({
+                    x: 105.834931,
+                    y: 21.036872,
+                    z: 0
+                });
+                
+                Mesh.createFromGLTF(cay9, "./model/small_tree.glb")
+                    .then(function (geometry) {
+                        // increase it a factor of 3
+                        geometry.scale(0.2, { origin: cay9 });
+                        // rotate it by 90 degrees around the z axis
+                
+                        geometry.rotate(0, 0, 80);
+                        // add it to a graphic
+                        const graphic = new Graphic({
+                            geometry,
+                            symbol: {
+                                type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                                symbolLayers: [{
+                                    type: "fill", // autocasts as new FillSymbol3DLayer()
+                                    material: {
+                
+                                    },
+                                    size: 0.05
+                                }]
+                            }
+                        });
+                
+                        view.graphics.add(graphic);
+                    })
+                    .catch(console.error);
+
+                    const cay10 = new Point({
+                      x: 105.834938,
+                      y: 21.036910,
+                      z: 0
+                  });
+                  
+                  Mesh.createFromGLTF(cay10, "./model/small_tree.glb")
+                      .then(function (geometry) {
+                          // increase it a factor of 3
+                          geometry.scale(0.2, { origin: cay10 });
+                          // rotate it by 90 degrees around the z axis
+                  
+                          geometry.rotate(0, 0, 80);
+                          // add it to a graphic
+                          const graphic = new Graphic({
+                              geometry,
+                              symbol: {
+                                  type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                                  symbolLayers: [{
+                                      type: "fill", // autocasts as new FillSymbol3DLayer()
+                                      material: {
+                  
+                                      },
+                                      size: 0.05
+                                  }]
+                              }
+                          });
+                  
+                          view.graphics.add(graphic);
+                      })
+                      .catch(console.error);
+
+                      const cay4 = new Point({
+                        x: 105.834859,
+                        y: 21.036782,
+                        z: 0.4
+                    });
+                    
+                    Mesh.createFromGLTF(cay4, "./model/small_tree.glb")
+                        .then(function (geometry) {
+                            // increase it a factor of 3
+                            geometry.scale(0.2, { origin: cay4 });
+                            // rotate it by 90 degrees around the z axis
+                    
+                            geometry.rotate(0, 0, 80);
+                            // add it to a graphic
+                            const graphic = new Graphic({
+                                geometry,
+                                symbol: {
+                                    type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                                    symbolLayers: [{
+                                        type: "fill", // autocasts as new FillSymbol3DLayer()
+                                        material: {
+                    
+                                        },
+                                        size: 0.05
+                                    }]
+                                }
+                            });
+                    
+                            view.graphics.add(graphic);
+                        })
+                        .catch(console.error);
   view.popup.defaultPopupTemplateEnabled = true;
 });

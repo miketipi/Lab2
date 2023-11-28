@@ -33,7 +33,7 @@ export const MaiLangBacRender = (
       symbolLayers: [
         {
           type: "extrude",
-          size: 0.05,
+          size: 2.05,
           material: {
             color: "#a9a9a9",
           },
@@ -48,7 +48,7 @@ export const MaiLangBacRender = (
       symbolLayers: [
         {
           type: "extrude",
-          size: 0.8,
+          size: 2.8,
           material: {
             color: "#a9a9a9",
           },
@@ -63,7 +63,7 @@ export const MaiLangBacRender = (
       symbolLayers: [
         {
           type: "extrude",
-          size: 1.5,
+          size: 3.5,
           material: {
             color: "#a9a9a9",
           },
@@ -79,7 +79,7 @@ export const MaiLangBacRender = (
       symbolLayers: [
         {
           type: "extrude",
-          size: 0.05,
+          size: 2.05,
           material: {
             color: "#a9a9a9",
           },
@@ -95,7 +95,7 @@ export const MaiLangBacRender = (
       symbolLayers: [
         {
           type: "extrude",
-          size: 0.05,
+          size: 2.05,
           material: {
             color: "#a9a9a9",
           },
@@ -111,7 +111,7 @@ export const MaiLangBacRender = (
       symbolLayers: [
         {
           type: "extrude",
-          size: 0.5,
+          size: 2.5,
           material: {
             color: "#a9a9a9",
           },

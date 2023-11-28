@@ -4,9 +4,12 @@ export const wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
         url: "./data/foundation/walls/wall/floor.back.wall.geojson.json"
     });
 
-    const frontWall = new GeoJSONLayer({
-        url: "./data/foundation/walls/wall/floor.front.wall.geojson.json"
+    const frontWall1 = new GeoJSONLayer({
+        url: "./data/foundation/walls/wall/floor.front.wall.part1.geojson.json"
     });
+    const frontWall2 = new GeoJSONLayer({
+        url: "./data/foundation/walls/wall/floor.front.wall.part2.geojson.json"
+    })
 
     const leftWall = new GeoJSONLayer({
         url: "./data/foundation/walls/wall/floor.left.wall.geojson.json"
@@ -24,8 +27,28 @@ export const wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
         url: "./data/foundation/walls/wall/floor.right.wall.2.geojson.json"
     });
 
+    const topWall = new GeoJSONLayer({
+        url: "./data/foundation/walls/wall/floor.top.wall.geojson.json"
+    });
 
 
+
+    topWall.renderer = {
+        type: "simple",
+        symbol: {
+            type: "polygon-3d",
+            symbolLayers: [
+                {
+                    type: "extrude",
+                    size: 1.5,
+                    material: {
+                        color: "#9da1a6",
+                        
+                    },
+                }
+            ]
+        },
+    };
     backWall.renderer = {
         type: "simple",
         symbol: {
@@ -35,7 +58,7 @@ export const wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 4,
                     material: {
-                        color: "#313036",
+                        color: "#9da1a6",
                         
                     },
                 }
@@ -43,7 +66,7 @@ export const wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
         },
     };
 
-    frontWall.renderer = {
+    frontWall1.renderer = {
         type: "simple",
         symbol: {
             type: "polygon-3d",
@@ -52,7 +75,22 @@ export const wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 4,
                     material: {
-                        color: "#313036"
+                        color: "#9da1a6"
+                    },
+                }
+            ]
+        }
+    };
+    frontWall2.renderer = {
+        type: "simple",
+        symbol: {
+            type: "polygon-3d",
+            symbolLayers: [
+                {
+                    type: "extrude",
+                    size: 4,
+                    material: {
+                        color: "#9da1a6"
                     },
                 }
             ]
@@ -68,7 +106,7 @@ export const wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 4,
                     material: {
-                        color: "#313036"
+                        color: "#9da1a6"
                     },
                 }
             ]
@@ -84,7 +122,7 @@ export const wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 4,
                     material: {
-                        color: "#313036"
+                        color: "#9da1a6"
                     },
                 }
             ]
@@ -100,7 +138,7 @@ export const wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 4,
                     material: {
-                        color: "#313036"
+                        color: "#9da1a6"
                     },
                 }
             ]
@@ -116,7 +154,7 @@ export const wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 4,
                     material: {
-                        color: "#313036"
+                        color: "#9da1a6"
                     },
                 }
             ]
@@ -125,10 +163,12 @@ export const wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
 
     return [
         backWall,
-        frontWall, 
+        frontWall1, 
+        frontWall2,
         leftWall, 
         rightWall,
         rightWall2,
-        leftWall2
+        leftWall2,
+        topWall
     ]
 }

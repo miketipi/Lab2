@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Tường trước phần 1",
+          "height": 4,
+          "color": "#9da1a6",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+                [105.834844255, 21.036850303],
+                [105.83483422, 21.036843046] ,
+                [105.8348151402923,21.036754894613235,0],
+                [105.83482533636833,21.036762121375205,0]
+            ]
+          ]
+        },
+        "id": "pp1"
+      }
+    ]
+  }
+  
