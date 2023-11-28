@@ -67,7 +67,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -82,7 +82,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -97,7 +97,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -112,7 +112,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -127,7 +127,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -142,7 +142,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -157,7 +157,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -172,7 +172,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -187,7 +187,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -202,7 +202,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -217,7 +217,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -232,7 +232,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -247,7 +247,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -262,7 +262,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -277,7 +277,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -292,7 +292,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -307,7 +307,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -322,7 +322,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -337,7 +337,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
@@ -352,7 +352,7 @@ export const CotTruLangRender = (Map, SceneView, GeoJSONLayer, SceneLayer,
           symbolLayers: [
             {
               type: "extrude",
-              size: 6.5,
+              size: 5.5,
               material: {
                 color: "#838b94",
               },
