@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Bậc thang ngoài, trái 6",
+          "height": 0.5,
+          "color": "#e28743",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [105.83476024291599,21.036496655800324,3],
+              [105.83466892339258,21.03605514693241,3],
+              [105.83463108063903,21.036061965601863,3],
+              [105.83472240005025,21.036503474469786,3]
+              
+            ]
+          ]
+        },
+        "id": "pp100"
+      }
+    ]
+  }
