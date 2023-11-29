@@ -173,7 +173,7 @@ export const CauThangPhaiRender = (
           type: "extrude",
           size: 0.7,
           material: {
-            color: "#333",
+            color: "#838b94",
           },
         },
       ],
@@ -188,7 +188,7 @@ export const CauThangPhaiRender = (
           type: "extrude",
           size: 0.7,
           material: {
-            color: "#333",
+            color: "#838b94",
           },
         },
       ],
