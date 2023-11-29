@@ -58,3 +58,5 @@ trái->phải->phải dưới->trái dưới
                             21.03679254794397,
                             0
                         ],
+
+                        keo dai tương cua lam 1.85
