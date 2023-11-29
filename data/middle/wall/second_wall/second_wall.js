@@ -13,7 +13,7 @@ export const second_wall = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 1,
                     material: {
-                        color: "#656e73"
+                        color: "#838b94"
                     },
                 }
             ]

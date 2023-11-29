@@ -13,7 +13,7 @@ export const rightStep = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 1,
                     material: {
-                        color: "#656e73"
+                        color: "#838b94"
                     },
                 }
             ]
@@ -33,7 +33,7 @@ export const rightStep = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 0.5,
                     material: {
-                        color: "#656e73"
+                        color: "#838b94"
                     },
                 }
             ]
@@ -53,7 +53,7 @@ export const rightStep = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 0.5,
                     material: {
-                        color: "#656e73"
+                        color: "#838b94"
                     },
                 }
             ]
@@ -73,7 +73,7 @@ export const rightStep = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 0.5,
                     material: {
-                        color: "#656e73"
+                        color: "#838b94"
                     },
                 }
             ]
@@ -93,7 +93,7 @@ export const rightStep = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 0.5,
                     material: {
-                        color: "#656e73"
+                        color: "#838b94"
                     },
                 }
             ]
@@ -113,7 +113,7 @@ export const rightStep = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 0.5,
                     material: {
-                        color: "#656e73"
+                        color: "#838b94"
                     },
                 }
             ]
@@ -133,7 +133,7 @@ export const rightStep = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 0.5,
                     material: {
-                        color: "#656e73"
+                        color: "#838b94"
                     },
                 }
             ]
@@ -153,7 +153,7 @@ export const rightStep = (Map, SceneView, GeoJSONLayer, SceneLayer,
                     type: "extrude",
                     size: 1.5,
                     material: {
-                        color: "#656e73"
+                        color: "#838b94"
                     },
                 }
             ]

@@ -35,7 +35,7 @@ export const MaiLangBacRender = (
           type: "extrude",
           size: 0.05,
           material: {
-            color: "#a9a9a9",
+            color: "#838b94",
           },
         },
       ],
@@ -50,7 +50,7 @@ export const MaiLangBacRender = (
           type: "extrude",
           size: 0.8,
           material: {
-            color: "#a9a9a9",
+            color: "#838b94",
           },
         },
       ],
@@ -65,7 +65,7 @@ export const MaiLangBacRender = (
           type: "extrude",
           size: 1.5,
           material: {
-            color: "#a9a9a9",
+            color: "#838b94",
           },
         },
       ],
@@ -81,7 +81,7 @@ export const MaiLangBacRender = (
           type: "extrude",
           size: 0.05,
           material: {
-            color: "#a9a9a9",
+            color: "#838b94",
           },
         },
       ],
@@ -97,7 +97,7 @@ export const MaiLangBacRender = (
           type: "extrude",
           size: 0.05,
           material: {
-            color: "#a9a9a9",
+            color: "#838b94",
           },
         },
       ],
@@ -113,7 +113,7 @@ export const MaiLangBacRender = (
           type: "extrude",
           size: 0.5,
           material: {
-            color: "#a9a9a9",
+            color: "#838b94",
           },
         },
       ],
