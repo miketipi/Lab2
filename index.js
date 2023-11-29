@@ -1,7 +1,4 @@
 import { foundation } from "./data/foundation/foundation.js";
-import { centerBuilding } from "./data/centerBuilding/index.js";
-import { rightBuilding } from "./data/rightBuilding/rightBuilding.js";
-import { leftBuilding } from "./data/leftBuilding/leftBuilding.js";
 import { CauThangRender } from "./data/CauthangGiuaLang/CauThangRender.js";
 import { middle } from "./data/middle/middle.js";
 import { CauThangTraiRender } from "./data/CauthangTrai/CauThangTraiRender.js";
@@ -89,25 +86,6 @@ require([
     esriRequest
   );
 
-  const leftBuildingArr = leftBuilding(
-    Map,
-    SceneView,
-    GeoJSONLayer,
-    SceneLayer,
-    GraphicsLayer,
-    Graphic,
-    esriRequest
-  );
-
-  const rightBuildingArr = rightBuilding(
-    Map,
-    SceneView,
-    GeoJSONLayer,
-    SceneLayer,
-    GraphicsLayer,
-    Graphic,
-    esriRequest
-  );
 
   const cauthanggiualang = CauThangRender(
     Map,
