@@ -202,7 +202,7 @@ require([
 Mesh.createFromGLTF(cotco1, "./model/FlagVN.glb")
     .then(function (geometry) {
         // increase it a factor of 3
-        geometry.scale(0.5, { origin: cotco1 });
+        geometry.scale(1, { origin: cotco1 });
         // rotate it by 90 degrees around the z axis
 
         geometry.rotate(0, 0, 115);
@@ -541,5 +541,67 @@ Mesh.createFromGLTF(cotco1, "./model/FlagVN.glb")
                             view.graphics.add(graphic);
                         })
                         .catch(console.error);
+                        const banner1 = new Point({
+                            x: 105.834682899,
+                            y: 21.036271485,
+                            z: 4
+                        });
+                        
+                        Mesh.createFromGLTF(banner1, "./model/banner.glb")
+                            .then(function (geometry) {
+                                // increase it a factor of 3
+                                geometry.scale(2.42, { origin: banner1 });
+                                // rotate it by 90 degrees around the z axis
+                        
+                                geometry.rotate(0, 0, 79);
+                                // add it to a graphic
+                                const graphic = new Graphic({
+                                    geometry,
+                                    symbol: {
+                                        type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                                        symbolLayers: [{
+                                            type: "fill", // autocasts as new FillSymbol3DLayer()
+                                            material: {
+                        
+                                            },
+                                            size: 9
+                                        }]
+                                    }
+                                });
+                        
+                                view.graphics.add(graphic);
+                            })
+                            .catch(console.error);
+                            const banner2 = new Point({
+                                x: 105.83485870674134,
+                                y: 21.037136118091787,
+                                z: 4
+                            });
+                            
+                            Mesh.createFromGLTF(banner2, "./model/banner3.glb")
+                                .then(function (geometry) {
+                                    // increase it a factor of 3
+                                    geometry.scale(2.25, { origin: banner2 });
+                                    // rotate it by 90 degrees around the z axis
+                            
+                                    geometry.rotate(0, 0, 79);
+                                    // add it to a graphic
+                                    const graphic = new Graphic({
+                                        geometry,
+                                        symbol: {
+                                            type: "mesh-3d", // autocasts as new MeshSymbol3D()
+                                            symbolLayers: [{
+                                                type: "fill", // autocasts as new FillSymbol3DLayer()
+                                                material: {
+                            
+                                                },
+                                                size: 9
+                                            }]
+                                        }
+                                    });
+                            
+                                    view.graphics.add(graphic);
+                                })
+                                .catch(console.error);
   view.popup.defaultPopupTemplateEnabled = true;
 });
