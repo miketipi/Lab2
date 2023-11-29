@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Bậc thang ngoài, trái 7",
+          "height": 0.5,
+          "color": "#e28743",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [105.83484182967824,21.036931743530566,3.5],
+              [105.83493314997473,21.037373252349713,3.5],
+              [105.83490665981172,21.037378025411435,3.5],
+              [105.83481533959369,21.036936516592277,3.5]
+              
+            ]
+          ]
+        },
+        "id": "pp100"
+      }
+    ]
+  }

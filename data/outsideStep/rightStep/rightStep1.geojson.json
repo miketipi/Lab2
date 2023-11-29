@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Bậc thang ngoài, phải 1",
+          "height": 1,
+          "color": "#e28743",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [105.83490994702275,21.036919469884104,0],
+              [105.83500126752106,21.037360978703266,0],
+              [105.83490665981172,21.037378025411435,0],
+              [105.83481533959369,21.036936516592277,0]
+              
+            ]
+          ]
+        },
+        "id": "pp100"
+      }
+    ]
+  }

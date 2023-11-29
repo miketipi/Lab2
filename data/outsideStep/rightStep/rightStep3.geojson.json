@@ -1,0 +1,30 @@
+{
+    "type": "FeatureCollection",
+    "generator": "smartcity",
+    "copyright": "Smartcity",
+    "timestamp": "2021-05-27T09:28:58Z",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Building name": "Bậc thang ngoài, phải 3",
+          "height": 0.5,
+          "color": "#e28743",
+          "idb": "1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [105.83488724124184,21.036923561099595,1.5],
+              [105.8349785616729,21.037365069918746,1.5],
+              [105.83490665981172,21.037378025411435,1.5],
+              [105.83481533959369,21.036936516592277,1.5]
+              
+            ]
+          ]
+        },
+        "id": "pp100"
+      }
+    ]
+  }
